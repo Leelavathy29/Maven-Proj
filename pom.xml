@@ -17,6 +17,17 @@
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 	</properties>
+	<distributionManagement>
+   	<snapshotRepository>
+      	<id>nexus</id>
+      	<url>http://18.118.14.119:8081/repository/sampleartifact-snapshot/</url>
+   	</snapshotRepository>
+<repository>
+      	<id>nexus</id>
+      	<url>http://18.118.14.119:8081/repository/sampleartifact-release/</url>
+   	</repository>
+
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
