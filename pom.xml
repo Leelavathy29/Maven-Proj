@@ -13,18 +13,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
-		<sonar.host.url>http://3.129.90.175:9000/</sonar.host.url>
+		/*<sonar.host.url>http://3.129.90.175:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>admin</sonar.password>*/
 	</properties>
 	<distributionManagement>
    	<snapshotRepository>
       	<id>nexus</id>
-      	<url>http://18.118.14.119:8081/repository/sampleartifact-snapshot/</url>
+      	<url>http://18.222.212.114:8081/repository/sampleartifact-snapshot/</url>
    	</snapshotRepository>
 <repository>
       	<id>nexus</id>
-      	<url>http://18.118.14.119:8081/repository/sampleartifact-release/</url>
+      	<url>http://18.222.212.114:8081/repository/sampleartifact-release/</url>
    	</repository>
 
 	</distributionManagement>
