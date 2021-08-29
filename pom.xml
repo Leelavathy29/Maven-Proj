@@ -14,15 +14,18 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
+	
 	<distributionManagement>
-   	<snapshotRepository>
-      	<id>nexus</id>
-      	<url>http://18.222.212.114:8081/repository/sampleartifact-snapshot/</url>
-   	</snapshotRepository>
-<repository>
-      	<id>nexus</id>
-      	<url>http://18.222.212.114:8081/repository/sampleartifact-release/</url>
-   	</repository>
+   	     
+	      <snapshotRepository>
+      	          <id>nexus</id>
+      	          <url>http://3.16.164.204:8081/repository/sampleartifact-snapshot/</url>
+   	     </snapshotRepository>
+		
+             <repository>
+      	          <id>nexus</id>
+      	          <url>http://3.16.164.204:8081/repository/sampleartifact-release/</url>
+   	     </repository>
 
 	</distributionManagement>
 
